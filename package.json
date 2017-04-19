@@ -20,8 +20,7 @@
     "build": "npm run dist && npm run standalone",
     "gh-pages-build": "npm run prebuild && npm run demo-dist",
     "postversion": "git push && git push --tags",
-    "prepublish": "npm run dist && npm run standalone",
-    "preinstall": "npm run prepublish"
+    "prepublish": "npm run dist && npm run standalone"
   },
   "dependencies": {
     "react-autowhatever": "^4.1.0",
