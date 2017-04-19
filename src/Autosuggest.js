@@ -254,7 +254,7 @@ class Autosuggest extends Component {
           }
         }
       },
-      onChange: event => {
+      onInput: event => {
         const { value } = event.target;
         const { shouldRenderSuggestions } = this.props;
 
